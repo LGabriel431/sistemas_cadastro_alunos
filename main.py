@@ -59,13 +59,22 @@ def atualizar():
             print("Aluno não encontrado.")
             return
 
-        novo_nome = input("Novo nome: ")
-        nova_idade = input("Nova idade: ")
-        novo_curso = input("Novo curso: ")
+        aluno = alunos[indice]
 
-        alunos[indice]["nome"] = novo_nome
-        alunos[indice]["idade"] = nova_idade
-        alunos[indice]["curso"] = novo_curso
+        print("\nDeixe em branco caso não queira alterar o dado.")
+
+        novo_nome = input(f"Novo nome [{aluno['nome']}]: ")
+        nova_idade = input(f"Nova idade [{aluno['idade']}]: ")
+        novo_curso = input(f"Novo curso [{aluno['curso']}]: ")
+
+        if novo_nome.strip() != "":
+            aluno["nome"] = novo_nome
+
+        if nova_idade.strip() != "":
+            aluno["idade"] = nova_idade
+
+        if novo_curso.strip() != "":
+            aluno["curso"] = novo_curso
 
         print("\nAluno atualizado com sucesso!")
 
