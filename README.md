@@ -2,15 +2,13 @@
 
 ## Integrantes
 
-- Nome do Aluno 1
-- Nome do Aluno 2
-- Nome do Aluno 3
-- Nome do Aluno 4
+- Rafaelly Oliveira
+- Débora Raquel
 
 ## Descrição do sistema
 
-O Sistema de Cadastro de Alunos foi desenvolvido em Python
-e funciona através do terminal.
+O Sistema de Cadastro de Alunos é um pequeno sistema desenvolvido
+em Python que funciona através do terminal.
 
 O sistema permite realizar operações de cadastro, consulta,
 atualização e exclusão de alunos.
@@ -25,19 +23,32 @@ atualização e exclusão de alunos.
 
 - Cadastro de alunos
 - Consulta de alunos
+- Atualização de dados dos alunos
+- Exclusão de alunos
+
+## Organização do desenvolvimento
+
+O projeto foi desenvolvido utilizando Git e GitHub para controle
+de versão e colaboração entre os integrantes.
+
+Cada integrante possui sua própria branch para desenvolver sua
+parte do projeto.
+
+### Divisão das funções
+
+**Integrante 1 - Rafaelly Victoria Lima**
+
+- Cadastro de alunos
+- Consulta de alunos
+
+**Integrante 2 - NOME DO SEGUNDO INTEGRANTE**
+
 - Atualização de alunos
 - Exclusão de alunos
 
-## Como executar o projeto
+## Branches
 
-1. Instale o Python.
-2. Clone o repositório.
-3. Abra a pasta do projeto no terminal.
-4. Execute:
+A branch principal do projeto é:
 
-python main.py
-
-## Objetivo
-
-Desenvolver um sistema simples de cadastro de alunos e
-aplicar conceitos de versionamento utilizando Git e GitHub.
+```text
+main
