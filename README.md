@@ -3,7 +3,7 @@
 ## Integrantes
 
 - Rafaelly Oliveira
-- Débora Raquel
+- Debora Raquel
 
 ## Descrição do sistema
 
